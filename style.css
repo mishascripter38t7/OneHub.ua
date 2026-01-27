@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0f15;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #11131a;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.logo { font-size: 22px; font-weight: bold; }
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.btn {
+  background: #5c6cff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.primary-btn {
+  background: #5c6cff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #171a22;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+}
+
+.price-card {
+  background: #171a22;
+  padding: 25px;
+  border-radius: 12px;
+  width: 260px;
+  text-align: center;
+}
+
+.premium {
+  border: 2px solid #5c6cff;
+}
+
+.price {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #11131a;
+  color: #777;
+}
