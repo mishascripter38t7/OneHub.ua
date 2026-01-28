@@ -1,3 +1,5 @@
-document.querySelector(".primary-btn").addEventListener("click", () => {
-  alert("Функция регистрации будет подключена позже 🚀");
-});
+console.log("OneHub system loaded");
+
+function showMessage() {
+    alert("Функции сервиса появятся после подключения сервера");
+}
